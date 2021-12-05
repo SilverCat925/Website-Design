@@ -1,0 +1,131 @@
+body {
+    color: #66CDAA; 
+    color: hsl(300,80%,50%);
+    font-family: "Gothic";
+    font-size: 16px;
+
+}
+
+h1, h2 {
+      
+    background-color: lightcoral;
+    color: darkblue;
+    font-family: Impact, fantasy;
+    text-align: center;
+    letter-spacing: 0.1em;
+    word-spacing: 0.4em;
+    font-weight: 100;
+}
+.character_name {
+    
+    color: darkgreen;
+    
+}
+span.character_name {
+    
+    color:crimson;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: blink;
+    
+}
+#last {
+    color: darkgoldenrod;
+}
+a {
+    color: purple;
+    font-weight: bold;
+    text-decoration: none;
+}
+p {
+    line-height: 1.4em;
+    text-indent: 20px;
+}
+p:first-letter {
+    font-size: 200%;
+    font-weight: bold;
+}
+p:first-line {
+    font-style: italic;
+}
+
+#divBox {
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;
+    background-color: #ee3e80;
+    border: 5px outset #0088dd;
+    box-shadow: 20px 20px 20px #333333;
+}
+
+.pClass {
+    width: 60%;
+    background-color: #e1ddda;
+    border-style: solid;
+    border-width: thick;
+    border-color: darkblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    visibility: ;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+
+table {
+    width: 300px;
+    empty-cells: show;
+    border-spacing: 5px 10px;
+    border-collapse: separate;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid #0088dd;
+}
+
+th {
+    text-transform: uppercase;
+    text-align: left;
+    border-top: 1px solid #999;
+    border-bottom: 2px solid #111111;
+}
+
+tr.even {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: purple;
+}
+
+img.align-center {
+    display: block;
+    margin: 0px auto;
+}
+
+img.align-right {
+    float: right;
+    margin-left: 10px;
+}
+
+img.large {
+    width: 500px;
+}
+
+img.medium {
+    width: 250px;
+}
+
+img.small {
+    width: 100px;
+}
